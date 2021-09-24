@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="css/reboot.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/index.js" defer></script>
+  </head>
+  <body>
+
+    <aside class="forms-lab">
+      <header>
+        <h2>Checking Input Fields</h2>
+        <output class="calculation">0</output>
+        <p>multiply the input by 10</p>
+      </header>
+   
+    <form id="check-types"  class="check-types" >
+     
+      <!-- quantity of items -->
+      <div class="control">
+        <label  for="field-to-check">let's check this fields data</label>
+        <input id="field-to-check" type="text"  required placeholder="1234" />
+            <p class="warning hide"> 
+              <img src="img/icons/warning.svg" alt="warning sign" /> 
+              <span>
+                this will be an our warning message for our text field
+              </span>
+            </p>
+      </div>
+
+     
+
+     <!-- submit button -->
+      <div class="submit-button">
+        <button type="submit"> check input field</button>
+      </div>
+    </form>
+  </aside>
+  </body>
+  <script src="js/index.js"></script>
+</html>
